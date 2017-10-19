@@ -1,0 +1,73 @@
+/*Textos*/
+h1 {
+	font-family: 'Sanchez', serif;
+	font-size: 20px;
+	color: #333333;
+}
+
+p {
+	font-family: 'Sanchez', serif;
+	text-align: right;
+	color: #FFF;
+	text-shadow: 0 0 12px #000;
+	margin: 170px 10px 0 0px;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;	
+	color: #FFF;
+	text-shadow: 0 0 12px #333333;
+}
+
+/*Línea bajo el título*/
+.line {
+	width: 60px;
+	height: 5px;
+	background-color: #000;
+	margin-top: -10px;
+}
+
+/*Imágenes*/
+.picture {
+	width: 200px;
+	height: 200px;
+	margin: 10px 20px 10px 10px;
+	background-size: 110%;
+	background-repeat: no-repeat;
+	-webkit-filter: grayscale(1) hue-rotate(270deg) opacity(1);
+	float: left;
+}
+
+.photo1 {
+	background-image: url(../img/enid.jpg)
+
+}
+
+.photo2 {
+	background-image: url(../img/pamela.jpeg);
+}
+
+.photo3 {
+	background-image: url(../img/tamara.jpeg);
+}
+
+.photo4 {
+	background-image: url(../img/carolina.jpg);
+	clear: left;
+	float: left;
+}
+
+.photo5 {
+	background-image: url(../img/victoria.jpg);
+}
+
+.photo6 {
+	background-image: url(../img/jocelyne.jpg);
+}
+
+/*Cursor posicionado encima*/
+.picture:hover {
+ 	filter:none;
+ 	font-size: 17px;
+}
